@@ -1,0 +1,203 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    margin: 3em;
+    color: blanchedalmond;
+}
+
+.resting-face {
+    margin: auto;
+    width: 40em;
+    height: 30em;
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    background-color: lightgoldenrodyellow;
+}
+
+.mindeye {
+    width: 1em;
+    height: 1em;
+    border: solid 1px 8102ca;
+    border-radius: 50%;
+    position: relative;
+    left: 19em; 
+    top: 7em;
+    background: radial-gradient(#02b5eb, #8102ca);  
+}
+
+/*Resting Face*/
+.eyelid {
+    width: 8em;
+    height: 4em;
+    border: solid 1px black;
+    border-radius: 50%;
+    position: relative;
+    left: 20%; 
+    top: 6em;
+    background-color: black;
+}
+.closedeye-effect {
+    width: 8em;
+    height: 4em;
+    border: solid 1px lightgoldenrodyellow;
+    border-radius: 50%;
+    position: relative;
+    top: -1.5em;
+    background-color: lightgoldenrodyellow;
+}
+.eyelash1 {
+    width: 0.4em;
+    height: 1.5em;
+    border: solid 1px black;
+    position: relative;
+    /* left: 1em;  */
+    top: -1.5em;
+    background-color: black; 
+    transform: rotate(45deg);
+}
+.eyelash2 {
+    width: 0.4em;
+    height: 1.5em;
+    border: solid 1px black;
+    position: relative;
+    left: 7em; 
+    top: -3em;
+    background-color: black; 
+    transform: rotate(-45deg);
+}
+.eyelash3 {
+    width: 0.4em;
+    height: 0.7em;
+    border: solid 1px black;
+    position: relative;
+    left: 5em; 
+    top: -3.5em;
+    background-color: black; 
+    transform: rotate(-20deg);
+}
+.eyelash4 {
+    width: 0.4em;
+    height: 0.7em;
+    border: solid 1px black;
+    position: relative;
+    left: 2.2em; 
+    top: -4.4em;
+    background-color: black; 
+    transform: rotate(20deg);
+}
+#righteye {
+    position: relative;
+    left: 15em;
+    top: -4em;
+}
+.mouth {
+    width: 4em;
+    height: 1.5em;
+    border: solid 1px 5e0404;
+    border-radius: 0 0 45px 45px;
+    margin: 16px;
+    position: relative;
+    left: 17em; 
+    top: 10em;
+    background: linear-gradient(#be0303, #5e0404);
+}
+.upperlip1 {
+    width: 2.1em;
+    height: 1.5em;
+    border: solid 1px 5e0404;
+    border-radius: 0 0 45px 45px;
+    margin: 16px;
+    position: relative;
+    left: -1.1em;
+    top: -1.5em;
+    background: linear-gradient(#be0303, #5e0404);
+    transform: rotate(180deg);
+}
+.upperlip2 {
+    width: 2.1em;
+    height: 1.5em;
+    border: solid 1px 5e0404;
+    border-radius: 0 0 45px 45px;
+    margin: 16px;
+    position: relative;
+    left: 1em;
+    top: -4em;
+    background: linear-gradient(#be0303, #5e0404);
+    transform: rotate(180deg);
+}
+
+/*Evil Face*/
+.evil-face:hover {
+    margin: auto;
+    width: 40em;
+    height: 30em;
+    border: 4mm ridge rgb(105, 0, 0);
+    background-color: rgb(39, 39, 39);
+    position: absolute;
+    top: 6.67em;
+    left: 13.56em;
+}
+
+.evil-eyelid {
+    z-index: 1;
+    width: 7.5em;
+    height: 5em;
+    border: solid 1px rgb(14, 13, 13);
+    border-radius: 0 0 100px 100px;
+    position: relative;
+    left: 25%; 
+    top: 8em;
+    background-color: rgb(14, 13, 13);
+    transform: rotate(-20deg);
+}
+.evil-closedeye-effect {
+    z-index: 1;
+    width: 8em;
+    height: 5.3em;
+    border: solid 1px black;
+    border-radius: 50%;
+    position: relative;
+    top: -1.8em;
+    left: -0.3em;
+    background-color: black;
+}
+.evil-pupil {
+    z-index: 1;
+    width: 2em;
+    height: 2em;
+    border: solid 0.1em white;
+    border-radius: 50%;
+    position: relative;
+    top: -5.5em; 
+    left: 2.8em;
+}
+#evil-righteye {
+    z-index: 1;
+    position: relative;
+    left: 15em;
+    top: -1em;
+    transform: rotate(30deg);
+}
+.evil-mouth {
+    width: 25em;
+    height: 15em;
+    border: solid 1px 5e0404;
+    border-radius: 0 0 140px 140px;
+    margin: 16px;
+    position: relative;
+    left: 6.5em; 
+    top: -6em;
+    background: linear-gradient(#be0303, #5e0404);
+}
+.evil-upperlip1 {
+    width: 25em;
+    height: 16em;
+    border: solid 1px 5e0404;
+    border-radius: 0 0 150px 150px;
+    margin: 16px;
+    position: relative;
+    left: -1em; 
+    top: -2em;
+    background: rgb(39, 39, 39);
+}

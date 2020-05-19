@@ -1,0 +1,19 @@
+//Hoisting
+El acto de que las variables pueden ser usadas "antes" de ser declarada. Por ejemplo 
+console.log(jess);
+let jess = happy;
+esto produciria: undefined
+se produce esto porque JS sabe que la variable existe pero fue usada antes de la asignacion de un valor.
+Siempre se crean las variables primero y eso es hoisting.
+
+//Literals
+Template literals are string literals allowing embedded expressions. 
+You can use multi-line strings and string interpolation features with them.
+i.e.  
+let name = 'Jess';
+console.log('my name is ${name});  -> My name is Jess
+Notes on this: You must use `` and it would respect breaks between lines. - Also called string interpolation.
+
+//Ternaries
+Syntax:
+Condition ? expressionIfTrue : expressionIfFalse;
