@@ -6,15 +6,15 @@ h1 {
     margin: 3em;
     color: blanchedalmond;
 }
-
+/*Resting Face*/
 .resting-face {
+    display: none;
     margin: auto;
     width: 40em;
     height: 30em;
     border: 4mm ridge rgba(170, 50, 220, .6);
     background-color: lightgoldenrodyellow;
 }
-
 .mindeye {
     width: 1em;
     height: 1em;
@@ -25,8 +25,6 @@ h1 {
     top: 7em;
     background: radial-gradient(#02b5eb, #8102ca);  
 }
-
-/*Resting Face*/
 .eyelid {
     width: 8em;
     height: 4em;
@@ -129,18 +127,18 @@ h1 {
 
 /*Evil Face*/
 .evil-face:hover {
+    /* display: block; */
     margin: auto;
     width: 40em;
     height: 30em;
     border: 4mm ridge rgb(105, 0, 0);
     background-color: rgb(39, 39, 39);
     position: absolute;
-    top: 6.67em;
-    left: 13.56em;
+    top: 10em;
+    left: 20em;
 }
 
 .evil-eyelid {
-    z-index: 1;
     width: 7.5em;
     height: 5em;
     border: solid 1px rgb(14, 13, 13);
@@ -151,8 +149,7 @@ h1 {
     background-color: rgb(14, 13, 13);
     transform: rotate(-20deg);
 }
-.evil-closedeye-effect {
-    z-index: 1;
+.evil-eye {
     width: 8em;
     height: 5.3em;
     border: solid 1px black;
@@ -163,7 +160,6 @@ h1 {
     background-color: black;
 }
 .evil-pupil {
-    z-index: 1;
     width: 2em;
     height: 2em;
     border: solid 0.1em white;
@@ -173,31 +169,30 @@ h1 {
     left: 2.8em;
 }
 #evil-righteye {
-    z-index: 1;
     position: relative;
     left: 15em;
     top: -1em;
     transform: rotate(30deg);
-}
+} 
 .evil-mouth {
     width: 25em;
-    height: 15em;
+    height: 8em;
     border: solid 1px 5e0404;
     border-radius: 0 0 140px 140px;
     margin: 16px;
     position: relative;
     left: 6.5em; 
-    top: -6em;
+    top: 1em;
     background: linear-gradient(#be0303, #5e0404);
 }
-.evil-upperlip1 {
+.evil-hideMouthSection {
     width: 25em;
-    height: 16em;
+    height: 8em;
     border: solid 1px 5e0404;
     border-radius: 0 0 150px 150px;
     margin: 16px;
     position: relative;
     left: -1em; 
-    top: -2em;
+    top: -1em;
     background: rgb(39, 39, 39);
 }
