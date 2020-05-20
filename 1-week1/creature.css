@@ -8,7 +8,7 @@ h1 {
 }
 /*Resting Face*/
 .resting-face {
-    display: none;
+    /* display: none; */
     margin: auto;
     width: 40em;
     height: 30em;
@@ -126,8 +126,8 @@ h1 {
 }
 
 /*Evil Face*/
-.evil-face:hover {
-    /* display: block; */
+.evil-face {
+    display: none;
     margin: auto;
     width: 40em;
     height: 30em;
